@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal website of Leon Wong">
+    <meta name="author" content="Wong Kin Leon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<!-- Page title -->
+	<title>Leon Wong</title>
+</head>
+<body>
+	<header> <!-- Header--------------------------------------------- -->
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12 text-center py-4"> <!-- Padding y-axis -->
+					
+					<!-- Navigation Bar -->
+					<nav>
+						<a class="mx-2" href="index.html">Home</a> <!-- Margin x-axis -->
+						<a class="mx-2" href="index.html#aboutPanel">About</a>
+						<a class="mx-2" href="index.html#projectPanel">Project</a>
+						<a class="mx-2" href="index.html#contactPanel">Contact</a>
+					</nav>
+
+				</div>
+			</div>
+		</div>
+
+	</header> <!-- Header-------------------------------------------- -->
+
+	<section>
+
+		<article class="mainView"> <!-- Main View ------------------- -->
+
+			<div class="container-fluid m-auto">
+				<div class="row">
+					<div class="col-sm-12 text-center">
+
+						<!-- Name & Title -->
+						<label class="mainName">Leon Wong</label><br>
+						<label class="mainTitle">Web Developer</label>
+						
+					</div>
+				</div>
+			</div>
+			
+		</article> <!-- Main View------------------------------------ -->
+
+		<article id="aboutPanel" class="py-5"> <!-- About Panel ------------------ -->
+			<!-- Padding y-axis -->
+
+			<div class="container-fluid">
+				<div class="row"> <!-- 1/3 About -->
+					<div class="col-sm-6">
+
+						<!-- About Heading -->
+						<h2>About Me</h2>
+
+					</div>
+					<div class="col-sm-6">
+
+						<!-- Text Justify Paragraph -->
+						<p class="text-justify">I live and study in Brunei. I am a Computer Science graduate, i have interests in solving problems related to software systems and serious passion for UI effects, creating intuitive and dynamic user experiences. I am always experimenting, always learning, and I never surrender. <a class="aboutLink" href="index.html#contactPanel">Let's make something special.</a></p>
+
+					</div>
+				</div>
+				<div class="row my-5"> <!-- 2/3 About -->
+					<!-- Margin y-axis -->
+					<div class="col-sm-12">
+
+						<!-- Education Heading -->
+						<h2>Education</h2>
+
+					</div>
+				</div>
+				<div id="aboutRowThree" class="row my-3"> <!-- 3/3 About -->
+					<!-- Margin y-axis -->
+					<div class="col-sm-6">
+
+						<!-- Study Year -->
+						<b>2016 - 2019</b><br>
+						<a href="https://www.lcb.edu.bn/" target="_blank">Laksamana College of Business</a><br>
+						<i>Bachelor Degree in Computer Science</i><br><br>
+						<i>Bandar Seri Begawan, Brunei</i>
+
+					</div>
+					<div class="col-sm-6">
+
+						<!-- Study Year -->
+						<b>2013 - 2015</b><br>
+						<a href="https://ibte.edu.bn/" target="_blank">Sultan Saiful Rijal Technical College</a><br>
+						<i>Diploma in Information Technology</i><br><br>
+						<i>Bandar Seri Begawan, Brunei</i>
+
+					</div>
+				</div>
+			</div>
+
+		</article> <!-- About Panel---------------------------------- -->
+
+		<article id="projectPanel" class="py-5"> <!-- Projects Panel ------------- -->
+			<!-- Padding y-axis -->
+
+			<div class="container-fluid">
+				<div class="row"> <!-- 1/3 Project -->
+					<div class="col-sm-12">
+
+						<!-- Project Heading -->
+						<h2>Projects</h2>
+					
+					</div>
+				</div>
+				<div class="row my-4"> <!-- 2/3 Project -->
+					<!-- Margin y-axis -->
+					<div class="col-sm-6">
+
+						<!-- Project Info -->
+						<br><b>E-Commerce Website</b><br>
+						<i>Developer</i>
+						<p>Develop an online store website that display list of products. Customer are able to add product to their online shopping cart.</p>
+					
+					</div>
+					<div class="col-sm-6 text-center">
+						
+						<!-- Image adapted from https://unsplash.com/photos/Ylk5n_nd9dA -->
+						<img class="img-fluid" src="images/project_image1.jpg" alt="Project Image">
+					
+					</div>
+				</div>
+				<div class="row my-5"> <!-- 3/3 Project -->
+					<!-- Margin y-axis -->
+					<div class="col-sm-6">
+						
+						<!-- Project Info -->
+						<br><b>elaY Art</b><br>
+						<i>UI/UX Designer</i>
+						<p>Design user interface for it to be as responsive as possible with simplistic design that allow user to interact the website instantaneous.</p>
+					
+					</div>
+					<div class="col-sm-6 text-center">
+						
+						<!-- Image adapted from https://unsplash.com/photos/i1VQZsU86ok -->
+						<img class="img-fluid"  src="images/project_image2.jpg" alt="Project Image">
+					
+					</div>
+				</div>
+			</div>
+			
+		</article> <!-- Project Panel-------------------------------- -->
+
+		<article id="contactPanel" class="py-5"> <!-- Contact Panel -------------- -->
+			<!-- Padding y-axis -->
+
+			<div class="container-fluid">
+				<div class="row justify-content-center"> <!-- 1/3 Contact -->
+
+					<!-- Contact Heading -->
+					<h2>Contact</h2><br>
+
+				</div>
+				<div class="row justify-content-center"> <!-- 2/3 Contact -->
+
+					<!-- Contact SubHeading -->
+					<p>Have a question or want to work together?</p>
+
+				</div>
+				<div class="row justify-content-center"> <!-- 3/3 Contact -->
+
+					<!-- Form with Submit -->
+					<form class="my-3"> <!-- Margin & Padding -->
+						<input class="contactInput my-1 px-3" type="text" name="inputName" placeholder="Name"><br>
+						<input class="contactInput my-2 px-3" type="email" name="emailAddress" placeholder="Email"><br>
+						<textarea id="contactMessage" class="contactInput my-1 px-3 py-1" rows="4" cols="60" placeholder="Message"></textarea><br>
+						<input id="contactSend" class="my-2" type="submit" name="submitButton" value="Send">
+					</form>
+
+				</div>
+			</div>
+		</article> <!-- Contact Panel-------------------------------- -->
+
+	</section>
+
+	<footer> <!-- Footer--------------------------------------------- -->
+		
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+
+					<!-- Copyright -->
+					<p class="my-4">&copy 2021 by kldotwon9@gmail.com</p> <!-- Margin y-axis -->
+
+				</div>
+			</div>
+		</div>
+	
+	</footer> <!-- Footer-------------------------------------------- -->
+	
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

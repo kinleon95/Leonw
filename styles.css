@@ -1,0 +1,126 @@
+body {
+	color: #9ba2a8; /* Light Grey */
+	font-family: Arial;
+}
+a {
+	color: #9ba2a8;
+}
+b {
+	color: #7ebca9; /* Light Green */
+}
+b, i {
+	font-size: 18px;
+}
+h2 {
+	border-bottom: 2px solid #7ebca9;
+}
+header { 
+	/* Header----------------------------------------------------- */
+	background-color: #23262f; /* Dark Background */
+	height: 75px;
+}
+.container-fluid {
+	width: 80%;
+}
+nav a {
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav a:hover {
+	text-decoration: none;
+	color: #7ebca9;
+	transition: 0.5s;
+}
+.mainView {
+	background-color: #23262f;
+	/* Image adapted from https://unsplash.com/photos/npxXWgQ33ZQ */
+	background-image: url(images/background_image.jpg); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+}
+.mainName, .mainTitle {
+	color: #ffffff;
+	font-size: 60px;
+	font-weight: lighter;
+}
+.mainTitle {
+	font-size: 24px;
+}
+#aboutPanel {
+	/* About------------------------------------------------------ */
+	background-color: #272935; /* Light Background */
+}
+.text-justify {
+	line-height: 1.8;
+	font-size: 18px;
+}
+.aboutLink {
+	color: #7ebca9;
+	text-decoration: none;
+}
+.aboutLink:hover {
+	border-bottom: 1px solid;
+	color: #7ebca9;
+	text-decoration: none;
+}
+#aboutRowThree a {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#aboutRowThree a:hover {
+	color: #7ebca9;
+}
+#projectPanel {
+	/* Project---------------------------------------------------- */
+	background-color: #23262f;
+	font-size: 18px;
+}
+#contactPanel {
+	/* Contact---------------------------------------------------- */
+	background-color: #272935;
+}
+#contactPanel p {
+	color: #9ba2a8;
+	font-size: 18px;
+}
+.contactInput {
+	background-color: #44475a;
+	border: none;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 16px;
+	height: 30px;
+	width: 100%;
+}
+#contactMessage {
+	height: 90px;
+	resize: none;
+}
+#contactSend {
+	border: 2px solid white;
+	background-color: #272935;
+	font-family: Arial;
+	color: #ffffff;
+	height: 40px;
+	width: 20%;
+}
+#contactSend:hover {
+	background-color: #7ebca9;
+	border-color: #7ebca9;
+	color: black;
+	cursor: pointer;
+	transition: 0.5s;
+}
+footer {
+	/* Footer----------------------------------------------------- */
+	background-color: #23262f;
+	height: 75px;
+	font-size: 18px;
+}
