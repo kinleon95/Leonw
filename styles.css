@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+}
 body {
 	color: #9ba2a8; /* Light Grey */
 	font-family: Arial;
@@ -34,12 +37,11 @@ nav a:hover {
 	transition: 0.5s;
 }
 .mainView {
-	background-color: #23262f;
-	/* Image adapted from https://unsplash.com/photos/npxXWgQ33ZQ */
+	background-color: #272935;  /* Light Background */
 	background-image: url(images/background_image.jpg); 
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	height: 500px;
 	display: flex;
 	justify-content: center;
@@ -54,7 +56,7 @@ nav a:hover {
 }
 #aboutPanel {
 	/* About------------------------------------------------------ */
-	background-color: #272935; /* Light Background */
+	background-color: #23262f;
 }
 .text-justify {
 	line-height: 1.8;
@@ -69,18 +71,40 @@ nav a:hover {
 	color: #7ebca9;
 	text-decoration: none;
 }
-#aboutRowThree a {
+#interestsPanel {
+	background-color: #23262f;
+}
+#educationPanel {
+	background-color: #23262f; 
+}
+#educationRowTwo a {
 	font-size: 18px;
 	font-weight: bold;
 	text-decoration: underline;
 }
-#aboutRowThree a:hover {
+#educationRowTwo a:hover {
 	color: #7ebca9;
+}
+#galleryPanel {
+	background-color: #272935;
 }
 #projectPanel {
 	/* Project---------------------------------------------------- */
 	background-color: #23262f;
 	font-size: 18px;
+}
+.projectLink:hover {
+	border-bottom: 1px solid;
+	color: #7ebca9;
+}
+.projectZoom {
+    margin: 0 auto;
+}
+.projectZoom img {
+    transition: 0.5s all ease-in-out;
+}
+.projectZoom img:hover {
+	transform: scale(1.1);
 }
 #contactPanel {
 	/* Contact---------------------------------------------------- */
@@ -123,4 +147,45 @@ footer {
 	background-color: #23262f;
 	height: 75px;
 	font-size: 18px;
+}
+.mediaBar {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.mediaBar a {
+	display: block;
+	text-align: center;
+	padding: 7px 11px;
+	color: white;
+	font-size: 18px;
+}
+.mediaBar a:hover {
+	background-color: #000;
+}
+.github {
+	background-color: #2f363d;
+}
+.linkedin {
+	background-color: #007bb5;
+}
+.instagram {
+	background-color: #7232bd;
+}
+.youtube {
+	background-color: #ff0000;
+}
+.email {
+	background-color: #35445c;
+}
+#toTopBtn {
+	opacity: 0;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	transition: opacity 0.3s ease-in-out;
+	font-size: 18px;
+	outline: none;
+	background-color: #7ebca9;
+	padding: 5px 20px;
 }
